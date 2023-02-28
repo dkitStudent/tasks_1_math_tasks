@@ -7,12 +7,12 @@ int main()
 {
     try
     {
-        double t, l;
+        double t, x;
         cout << "Input value of t: " << endl;
         cin >> t;
-        cout << "Input value of l: " << endl;
-        cin >> l; 
-        cout << "R = " << 3 * pow(t, 2) + 3 * pow(l, 5) + 4.9 << endl;
+        cout << "Input value of x: " << endl;
+        cin >> x; 
+        cout << "K = " << 7 * pow(t, 2) + 3 * sin(pow(x, 3)) + 9.2 << endl;
     }
     catch(const std::exception& e)
     {

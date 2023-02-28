@@ -7,12 +7,14 @@ int main()
 {
     try
     {
-        double t, l;
-        cout << "Input value of t: " << endl;
-        cin >> t;
-        cout << "Input value of l: " << endl;
-        cin >> l; 
-        cout << "R = " << 3 * pow(t, 2) + 3 * pow(l, 5) + 4.9 << endl;
+        double n, y, g;
+        cout << "Input value of n: " << endl;
+        cin >> n;
+        cout << "Input value of y: " << endl;
+        cin >> y;
+        cout << "Input value of g: " << endl;
+        cin >> g; 
+        cout << "P = " <<  n * sqrt(pow(y, 3) + 1.09 * g) << endl;
     }
     catch(const std::exception& e)
     {
